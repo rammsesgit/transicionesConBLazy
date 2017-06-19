@@ -1,0 +1,28 @@
+body{
+    background-image: url(../img/fondo.jpg);
+    text-align: center;
+}
+img{
+    position: relative;
+    border-radius: 15px;
+    transition: 1s;
+    opacity: 0;
+    max-width: 500px;
+    width: 100%;
+    left: -50%;
+    object-fit: cover;
+    transform: rotate(-90deg);
+
+}
+
+img.b-loaded{
+    opacity: 1;
+    transform: rotate(0deg);
+    left: 0;
+}
+
+figure{
+    background-image: url(../img/ripple.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+}
